@@ -48,4 +48,9 @@
     </bean>
     <tx:annotation-driven/>
     
+    <!-- gng  -->
+    <context:component-scan base-package="yanoll.enquire.persistence"/>
+    <context:component-scan base-package="yanoll.enquire.service"/>
+    
+    
 </beans>
