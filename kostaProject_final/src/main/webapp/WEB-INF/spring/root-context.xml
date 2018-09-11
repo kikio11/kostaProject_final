@@ -56,5 +56,8 @@
     <context:component-scan base-package="yanoll.review.service"/>
     <context:component-scan base-package="yanoll.review.persistence"/>
 
+
+  <context:component-scan base-package="yanoll.search.persistence"/>
+   <context:component-scan base-package="yanoll.search.service"/>
     
 </beans>
