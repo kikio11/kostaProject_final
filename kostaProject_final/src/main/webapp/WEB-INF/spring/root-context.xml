@@ -55,6 +55,6 @@
     <!-- syj -->
     <context:component-scan base-package="yanoll.review.service"/>
     <context:component-scan base-package="yanoll.review.persistence"/>
-    <context:component-scan base-package="yanoll.review.domain"/>
+
     
 </beans>
