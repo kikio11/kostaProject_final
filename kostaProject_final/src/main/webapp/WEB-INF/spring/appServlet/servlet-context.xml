@@ -26,6 +26,8 @@
 	<!-- gng -->
 	<context:component-scan base-package="yanoll.enquire.controller"></context:component-scan>
 	
+	<!--  -->
+	
 	
 	
 </beans:beans>
