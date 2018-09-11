@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="yanoll.mapper.registrationMapper">
+
+	<select id="selectList" resultType="Users">
+		select * from users
+		order by userno 
+	</select>
+
+	<update id="update" parameterType="Users">
+		update from users set 
+			password = #{password}, tel = #{tel}, email = #{email}
+	</update>
+
+	<delete id="delete" parameterType="Integer">
+		delete from users
+			where userno = #{userno}
+	</delete>
+
+	<select id="selectOne" parameterType="Integer" resultType="Users">
+		select * from users
+			where userno = #{userno}
+	</select>
+
+</mapper>
